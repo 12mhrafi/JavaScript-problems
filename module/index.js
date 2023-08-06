@@ -137,3 +137,125 @@ first 100 > 100tk
 
 // -----------------------------------------------------------------
 
+// // feet to inche
+
+// function feetToInch(feet){
+//     let inch = 12 * feet +" inches";
+//     return inch;
+// }
+
+// const totalInch = feetToInch(5);
+// console.log(totalInch);
+
+// ----------------------------------------
+
+// centimeter to meter
+
+// function centimeterToMeter(centimeter){
+//     let meter  = centimeter / 100 + " meter";
+//     return meter;
+// }
+
+// const totalMeter = centimeterToMeter(100);
+// console.log(totalMeter);
+
+// ------------------------------------
+
+// total paper need for books
+/*
+function paperRequirements(book1,book2,book3){
+    // total pages
+    const firstBookPaper = 100;
+    const secondBookPaper = 200;
+    const thirdBookPaper = 300;
+
+    let totalBookPapers = (firstBookPaper * book1) + (secondBookPaper * book2) + (thirdBookPaper * book3);
+    return totalBookPapers;
+}
+
+let total = paperRequirements(4,2,23);
+console.log(total);
+
+*/
+// ------------------------------------
+
+// return the max length name
+/*
+function bestFriend(friends){
+    let highest = friends[0];
+    for(i=0;i < friends.length;i++){
+        let name = friends[i];
+       let singleNameLength = name.length;
+       if(highest.length < singleNameLength){
+            highest = singleNameLength;
+       }
+    }return highest;
+}
+
+const friends = ['mahdi','hasan','rafi','mahdi hasan rafi'];
+
+ const high = bestFriend(friends);
+ console.log(high)
+
+
+
+ var arr = [
+  'first item',
+  'second item is longer than the third one',
+  'third longish item'
+];
+
+var lgth = 0;
+var longest;
+
+for (var i = 0; i < arr.length; i++) {
+  if (arr[i].length > lgth) {
+    var lgth = arr[i].length;
+    longest = arr[i];
+  }
+}
+
+console.log(longest);
+*/
+
+// return only positive number with an array ;
+
+// function onlyPositive(numbers){
+//     let positiveNumber = [];
+//     for(i=0;i < numbers.length ; i++){
+//         if(numbers[i] > 0 ){
+//             positiveNumber.push(numbers[i]);
+//         }else{
+//             break;
+//         }
+//     }
+//     return positiveNumber;
+
+// }
+// const numbers = [23,34,767,435,76,23,56,34,65,34,6,-23,45,324,54]
+// const positive = onlyPositive(numbers);
+// console.log(positive);
+// -----------------------------------------------------
+// even and odd number checker
+
+/* function evenOrOdd(numbers){
+         let evenNum = [];
+         let oddNum = [];
+     for(i=0; i < numbers.length; i++){
+        
+        if(numbers[i] % 2 == 0 ){
+            evenNum.push(numbers[i]);
+         }else{
+             oddNum.push(numbers[i]);
+         }
+     }
+     return {evenNum:evenNum,
+               oddNum:oddNum
+     }
+ }
+ const numbers = [23,38,68,78,100,767,435,76,23,56,34,65,34,6,23,45,324,54];
+
+ let num = evenOrOdd(numbers);
+ console.log("even", num.evenNum);
+ console.log("odd",num.oddNum);
+*/
