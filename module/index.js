@@ -18,7 +18,7 @@
 // }
 // var fact = factorial(5);
 // console.log(fact);
-
+// -----------------------------------------------
 // remove duplicate elements i an array
 // const names = ['rafi','hasan','mahdi','rafi','hasan','mahdi','rafi','kamal','gedu','hasan','mahdi','rafi','hasan','mahdi',]
 
@@ -35,6 +35,7 @@
 // const allName = removeDuplicateName();
 // console.log(allName);
 
+// ----------------------------------------------------
 
 // find cheapest elements in an object indside array
 
@@ -65,6 +66,10 @@
 // const LowestPhone = findLowestPricePhone();
 // console.log(LowestPhone)
 
+
+// -------------------------------------------------------
+
+
 // total cart price all phone
 
 // const phones = [
@@ -91,6 +96,8 @@
 
 //     const totalCost = totalPrice(phones);
 //     console.log(totalCost);
+
+
 // ---------------------------------------------------------
 
 /*
@@ -127,4 +134,6 @@ first 100 > 100tk
 
 // const priceAfterDiscount = discountTicketPrice(300);
 // console.log(priceAfterDiscount);
+
+// -----------------------------------------------------------------
 
