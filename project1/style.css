@@ -1,0 +1,18 @@
+.bg{
+    text-align:center;
+	background:rgb(130,176,124)
+}
+h2{
+    color:brown
+}
+
+.btn{
+    background-color: rgb(29, 18, 3);
+    color:aliceblue;
+    padding:10px;
+}
+.btn:hover{
+    background:white;
+    color:rgb(29, 18, 3);
+    transition: all 1s;
+}
