@@ -180,64 +180,40 @@ console.log(total);
 // ------------------------------------
 
 // return the max length name
-/*
-function bestFriend(friends){
-    let highest = friends[0];
-    for(i=0;i < friends.length;i++){
-        let name = friends[i];
-       let singleNameLength = name.length;
-       if(highest.length < singleNameLength){
-            highest = singleNameLength;
-       }
-    }return highest;
-}
 
-const friends = ['mahdi','hasan','rafi','mahdi hasan rafi'];
-
- const high = bestFriend(friends);
- console.log(high)
-
-
-
- var arr = [
-  'first item',
-  'second item is longer than the third one',
-  'third longish item'
-];
-
-var lgth = 0;
-var longest;
-
-for (var i = 0; i < arr.length; i++) {
-  if (arr[i].length > lgth) {
-    var lgth = arr[i].length;
-    longest = arr[i];
-  }
-}
-
-console.log(longest);
-*/
-
-// return only positive number with an array ;
-
-// function onlyPositive(numbers){
-//     let positiveNumber = [];
-//     for(i=0;i < numbers.length ; i++){
-//         if(numbers[i] > 0 ){
-//             positiveNumber.push(numbers[i]);
-//         }else{
-//             break;
-//         }
-//     }
-//     return positiveNumber;
-
+// function bestFriend(friends){
+//     let highest = friends[0];
+//     for(i=0;i < friends.length;i++){
+//        if(highest.length <  friends[i].length){
+//             highest = friends[i];
+//        }
+//     }return highest;
 // }
+//  const friends = ['mahdi','hasan','rafi','mahdi hasan rafi'];
+//  const high = bestFriend(friends);
+//  console.log(high)
+
+
+/*
+return onlypositive number with an array ;
+
+ function onlyPositive(numbers){
+    let positiveNumber = [];
+    for(i=0;i < numbers.length ; i++){
+         if(numbers[i] > 0 ){
+            positiveNumber.push(numbers[i]);
+        }else{
+            break;
+         }
+    }
+    return positiveNumber;
+}
 // const numbers = [23,34,767,435,76,23,56,34,65,34,6,-23,45,324,54]
 // const positive = onlyPositive(numbers);
 // console.log(positive);
 // -----------------------------------------------------
 // even and odd number checker
-
+*/
 /* function evenOrOdd(numbers){
          let evenNum = [];
          let oddNum = [];
