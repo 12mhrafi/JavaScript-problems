@@ -240,17 +240,73 @@ return onlypositive number with an array ;
 
 // finding bad data ( search in array and if find negtive number this wil be called as bad number)
 
-function findingBadData(numbers){
-    let badNum = [];
-    for(i=0;i < numbers.length; i++){
-        if(numbers[i] < 0){
-          badNum.push(numbers[i])
-        }
-    } 
-    let totalBadNum = badNum.length
-    return totalBadNum ;
-}
-const numbers = [23,38,68,-78,100,-767,435,-76,23,-56,34,-65,34,6,23,45,324,54];
+// function findingBadData(numbers){
+//     let badNum = [];
+//     for(i=0;i < numbers.length; i++){
+//         if(numbers[i] < 0){
+//           badNum.push(numbers[i])
+//         }
+//     } 
+//     let totalBadNum = badNum.length
+//     return totalBadNum ;
+// }
+// const numbers = [23,38,68,-78,100,-767,435,-76,23,-56,34,-65,34,6,23,45,324,54];
 
-console.log((findingBadData(numbers))); 
-// ans: total bad number is 5;
+// console.log((findingBadData(numbers))); 
+// // ans: total bad number is 5;
+
+
+// take an array  its inside the numbers is integer return true;
+
+
+// function isInterger(numbers){
+//     let integerNum = [];
+//     let decimalNum = [];
+//     for(i=0;i < numbers.length;i++){
+//         if(typeof numbers[i] !== "number"){
+//             console.log("Give me right number");
+//         }else{
+//             if(numbers[i] % 1 === 0){
+//                 integerNum.push(numbers[i]);
+//             }else{
+//                 decimalNum.push(numbers[i]);
+//             }
+//         }
+//     }
+//     return [integerNum,
+//         decimalNum];
+// }
+// const numbers = [65.4,4,64,45,6.34,34.64,34,2346,3654,324,5.2,545.45,54/5];
+// const num  = isInterger(numbers);
+// console.log(num[0])
+// console.log(num[1])
+
+
+// take a function name is called isJavaScriptFile
+
+// let fileName = "index.js";
+
+// function isJavaScriptFile(fileName){
+//     if(fileName.toLowerCase().endsWith(".js") === true){
+//         return true;
+//     }else{
+//         return false;
+//     }
+
+// }
+
+// console.log( isJavaScriptFile(fileName));
+
+// function totalValue(num){
+//     if(typeof num !== 'number'){
+//        return "Please Give me number"
+//     }else{
+//         let totalMul = num * 3;
+//         let totaladd = totalMul + 10;
+//         let totalDiv = totaladd / 2;
+//         let totSub = totalDiv - 5;
+//         return totSub;
+//     }
+// }
+
+// console.log(totalValue(6));
