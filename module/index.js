@@ -235,3 +235,22 @@ return onlypositive number with an array ;
  console.log("even", num.evenNum);
  console.log("odd",num.oddNum);
 */
+
+
+
+// finding bad data ( search in array and if find negtive number this wil be called as bad number)
+
+function findingBadData(numbers){
+    let badNum = [];
+    for(i=0;i < numbers.length; i++){
+        if(numbers[i] < 0){
+          badNum.push(numbers[i])
+        }
+    } 
+    let totalBadNum = badNum.length
+    return totalBadNum ;
+}
+const numbers = [23,38,68,-78,100,-767,435,-76,23,-56,34,-65,34,6,23,45,324,54];
+
+console.log((findingBadData(numbers))); 
+// ans: total bad number is 5;
